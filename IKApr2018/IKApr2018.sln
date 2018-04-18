@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IKApr2018", "IKApr2018\IKApr2018.csproj", "{40823D7B-5341-4DD1-B5D8-07EF43A76E82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HWProblems", "HWProblems", "{BA9BD4B7-9966-4305-BE0A-23314A0BA8D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassProblems", "ClassProblems", "{3AFC200C-2E78-4053-A34D-493CC7AA188B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProblems", "TestProblems", "{4F12AB0E-378F-414B-A55C-618F62CF7A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLStackQueue", "LLStackQue\LLStackQueue.csproj", "{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherProblems", "OtherProblems", "{A120A7CE-0A8E-49FE-A640-113FFCF0997F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLStackQueue", "LLStackQueue\LLStackQueue.csproj", "{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{E40D97A0-3111-4144-9213-EB529EFC83E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDataStructures", "MyDataStructures\MyDataStructures.csproj", "{01EFBA52-8BE6-4B1F-90C4-B9BADC522569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40823D7B-5341-4DD1-B5D8-07EF43A76E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40823D7B-5341-4DD1-B5D8-07EF43A76E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40823D7B-5341-4DD1-B5D8-07EF43A76E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40823D7B-5341-4DD1-B5D8-07EF43A76E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EFBA52-8BE6-4B1F-90C4-B9BADC522569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EFBA52-8BE6-4B1F-90C4-B9BADC522569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EFBA52-8BE6-4B1F-90C4-B9BADC522569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EFBA52-8BE6-4B1F-90C4-B9BADC522569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC3BBFE2-73FD-4067-91EC-5D41C0F5841B} = {BA9BD4B7-9966-4305-BE0A-23314A0BA8D5}
+		{A3764BB1-4D19-4BB8-B2EB-9CB7B1EDF5A1} = {A120A7CE-0A8E-49FE-A640-113FFCF0997F}
+		{01EFBA52-8BE6-4B1F-90C4-B9BADC522569} = {E40D97A0-3111-4144-9213-EB529EFC83E8}
+	EndGlobalSection
+EndGlobal
