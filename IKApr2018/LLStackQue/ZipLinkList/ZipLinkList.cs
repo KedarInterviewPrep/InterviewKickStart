@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * I intially came up with a solution of creating another link list of the same link list but reversing it and then start traversing the two list
+ * till N/2. But this needs extra space. 
+ * With some hints from online, I realized the below approach where you don't have to take that extra space and can simply reverse within the same linklist (last N/2 part is reversed).
+ * 
+ */
 using MyDataStructures.LinkList;
 
 namespace LLStackQueue.ZipLinkList
@@ -26,7 +27,7 @@ namespace LLStackQueue.ZipLinkList
                 prev = head;
                 head = head.Next;
             }
-            prev.Next = null; // Terminate the first LL.
+            prev.Next = null; // NOTE: Terminate the first half LL, otherwise it results into infinite execution due to loop within the linklist.
 
             secondHalf = ReverseLinkList(head);
             var newHead = firstHalf;
