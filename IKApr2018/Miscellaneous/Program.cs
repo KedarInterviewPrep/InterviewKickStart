@@ -11,7 +11,8 @@ namespace Miscellaneous
     {
         static void Main(string[] args)
         {
-            TwoDimArray();
+            DrawCircle.DrawGrid(10);
+            //TwoDimArray();
             //AsciiAndUnicode();
             //Dictionary<int, Vertex<int, string>> vertices = new Dictionary<int, Vertex<int,string>>();
             //string str = "kedar";
